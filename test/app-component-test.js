@@ -31,7 +31,7 @@ function setup() {
 
 function setUpMount() {
   // const middlewares = [ thunk ]
-  // // const mockStore = configureMockStore(rootReducer, compose(applyMiddleware(middlewares)))({cats: {loading: false, pictures: []}})
+  // const mockStore = configureMockStore(rootReducer, compose(applyMiddleware(middlewares)))({cats: {loading: false, pictures: []}})
 
   console.log('before mount in test here')
   const component = mount(<App catPics={[]}/>)
